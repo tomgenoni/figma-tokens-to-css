@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build-tokens:*)",
+      "Bash(npm run build-tailwind:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

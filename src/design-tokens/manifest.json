@@ -1,13 +1,13 @@
 {
   "name": "Design Tokens",
   "collections": {
-    "color": {
+    "mode": {
       "modes": {
         "light": [
-          "color.light.tokens.json"
+          "mode.light.tokens.json"
         ],
         "dark": [
-          "color.dark.tokens.json"
+          "mode.dark.tokens.json"
         ]
       }
     },
@@ -18,10 +18,10 @@
         ]
       }
     },
-    "font": {
+    "type": {
       "modes": {
         "value": [
-          "font.value.tokens.json"
+          "type.value.tokens.json"
         ]
       }
     },

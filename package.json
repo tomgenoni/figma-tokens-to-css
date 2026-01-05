@@ -1,0 +1,28 @@
+{
+  "name": "figma-tokens-to-css",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This is the code for converting design tokens into CSS.",
+  "homepage": "https://github.com/tomgenoni/figma-tokens-to-css#readme",
+  "bugs": {
+    "url": "https://github.com/tomgenoni/figma-tokens-to-css/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomgenoni/figma-tokens-to-css.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-cdl": "npm run build-tokens && npm run build-tailwind && prettier --write src/styles/generated/*.css",
+    "build-tokens": "node scripts/tokensToCss.js",
+    "build-tailwind": "node scripts/tokensToTailwind.js"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {}
+}

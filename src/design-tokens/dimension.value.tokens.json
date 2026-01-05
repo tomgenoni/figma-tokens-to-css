@@ -1,5 +1,5 @@
 {
-  "space": {
+  "spacing": {
     "xxx-sm": {
       "$type": "dimension",
       "$value": "2px"

@@ -1,0 +1,41 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Enabled categories, commented out to remind you which categories are enabled */
+  /* Ideally these would all be disabled when old usage is replace with React components */
+  /* --spacing-*: initial; */
+  /* --text-*: initial; */
+  /* --font-*: initial; */
+  /* --font-weight-*: initial; */
+
+  /* Disabled categories */
+  --animate-*: initial;
+  --aspect-*: initial;
+  --blur-*: initial;
+  --breakpoint-*: initial;
+  --color-*: initial;
+  --container-*: initial;
+  --drop-shadow-*: initial;
+  --ease-*: initial;
+  --inset-shadow-*: initial;
+  --leading-*: initial;
+  --perspective-*: initial;
+  --radius-*: initial;
+  --shadow-*: initial;
+  --tracking-*: initial;
+
+  /* Legacy breakpoints. */
+  /* These should eventually be removed in favor of the */
+  /* the values in `src/styles/generated/tailwind-cdl.css` */
+
+  --breakpoint-xs: 375px;
+  --breakpoint-sm: 640px;
+  --breakpoint-mobile: 800px;
+  --breakpoint-md: 898px;
+  --breakpoint-lg: 978px;
+  --breakpoint-1100px: 1100px;
+  --breakpoint-2lg: 1200px;
+  --breakpoint-xl: 1444px;
+  --breakpoint-2xl: 1536px;
+  --breakpoint-3xl: 1919px;
+}
