@@ -1,0 +1,50 @@
+{
+  "family": {
+    "sans": {
+      "$type": "string",
+      "$value": "FK Grotesk"
+    },
+    "mono": {
+      "$type": "string",
+      "$value": "DM Mono"
+    }
+  },
+  "size": {
+    "sm": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "13px"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "15px"
+    }
+  },
+  "line-height": {
+    "sm": {
+      "$type": "dimension",
+      "$value": "17.5px"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "19px"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "22px"
+    }
+  },
+  "weight": {
+    "normal": {
+      "$type": "dimension",
+      "$value": "400"
+    },
+    "bold": {
+      "$type": "dimension",
+      "$value": "500"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "space": {
+    "xxx-sm": {
+      "$type": "dimension",
+      "$value": "2px"
+    },
+    "xx-sm": {
+      "$type": "dimension",
+      "$value": "4px"
+    },
+    "x-sm": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "x-lg": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "xx-lg": {
+      "$type": "dimension",
+      "$value": "28px"
+    },
+    "xxx-lg": {
+      "$type": "dimension",
+      "$value": "32px"
+    }
+  },
+  "icon": {
+    "sm": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "20px"
+    }
+  }
+}
