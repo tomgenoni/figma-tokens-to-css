@@ -41,8 +41,8 @@
 
   /* Type */
   --pdl-font-sans:
-    "FK Grotesk", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    'FK Grotesk', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
   --pdl-font-mono: Berkeley Mono;
   --pdl-text-size-sm: 0.75rem; /* 12px */
   --pdl-text-size-md: 0.81rem; /* 13px */
@@ -57,7 +57,7 @@
 }
 
 /* Dark mode selectors and variables */
-[data-theme="dark"] {
+[data-theme='dark'] {
   --pdl-fg-base: #f9fafb;
   --pdl-fg-muted: #6a7282;
   --pdl-fg-subtle: #4a5565;

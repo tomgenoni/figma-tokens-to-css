@@ -5,7 +5,7 @@
  * Figma plugin and run 'npm run build-cdl'
  */
 
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
   /* Spacing and breakpoints */
@@ -21,7 +21,7 @@
 
   /* Fonts */
   --font-sans:
-    "FK Grotesk", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    'FK Grotesk', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
   --font-mono: Berkeley Mono;
 }
