@@ -1,6 +1,6 @@
 # Design Token Testing
 
-This is the code for converting design tokens into CSS.
+This repo demonstrates how to manually export tokens from Figma and convert to CSS and Tailwind for testing purposes in React. This is not meant as a long-term meath for managing design tokens.
 
 ## Design tokens
 
@@ -14,13 +14,11 @@ for use on colors, backgrounds, borders, spacing, sizing and border radii. There
 of component-specific variables that are not meant to be used by any other component. For example, a
 unique `max-width` value on the `Tooltip`.
 
-The tokens that are output from Figma are automatically documented for Storybook in [`tokens.mdx`](src/stories/tokens.mdx).
-
 ### Converting Figma variables to code
 
 Syncing Figma variables with code is a simple, but manual, process.
 
-1. In the Figma CDL file, open the
+1. In the Figma pdl file, open the
    [Design Token Manager](https://www.figma.com/community/plugin/1263743870981744253/design-tokens-manager)
    Figma plugin. This plugin outputs tokens in the
    [Design Tokens Format Module](https://www.designtokens.org/tr/drafts/format/), which is the
@@ -32,11 +30,11 @@ Syncing Figma variables with code is a simple, but manual, process.
 
 ### Programmatically generating CSS and Tailwind config
 
-Run `npm run build-cdl`. This executes two scripts:
+Run `npm run build-pdl`. This executes two scripts:
 
-1. `tokensToCSS.js` outputs the CSS variables in `src/styles/generated/cdl.css`
+1. `tokensToCSS.js` outputs the CSS variables in `src/styles/generated/pdl.css`
 2. `tokensToTailwind.js` outputs a Tailwind v4 configuration file to
-   `src/styles/generated/tailwind-cdl.css`
+   `src/styles/generated/tailwind-pdl.css`
 
 **Important:** Because these files are programmatically generated they should not be edited
 manually.
@@ -69,10 +67,10 @@ them to local constants and convert the value as needed.
 
 ## Tailwind
 
-Tailwind v4 is installed and used by both Next.js and Storybook. Configuration of Tailwind happens in two CSS files.
+The configuration of Tailwind happens in two CSS files.
 
 1. [`src/styles/tailwind-categories.css`](src/styles/tailwind-categories.css)
-2. [`src/styles/generated/tailwind-cdl.css`](src/styles/generated/tailwind-cdl.css)
+2. [`src/styles/generated/tailwind-pdl.css`](src/styles/generated/tailwind-pdl.css)
 
 By default Tailwind will include all the utility classes through what it calls
 ["theme variable namespaces"](https://tailwindcss.com/docs/theme#theme-variable-namespaces). The
@@ -101,7 +99,7 @@ categories are enabled and some are appended to.
 #### Appending to namespaces
 
 In order to add the custom spacing names and values to Tailwind we're generating the
-`tailwind-cdl.css` described above.
+`tailwind-pdl.css` described above.
 
 ```css
 @theme {
