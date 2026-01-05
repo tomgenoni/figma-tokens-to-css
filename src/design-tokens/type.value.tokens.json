@@ -6,7 +6,7 @@
     },
     "mono": {
       "$type": "string",
-      "$value": "DM Mono"
+      "$value": "Berkeley Mono"
     }
   },
   "size": {

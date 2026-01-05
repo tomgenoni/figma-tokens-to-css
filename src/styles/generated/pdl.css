@@ -30,12 +30,20 @@
   --pdl-icon-sm: 0.75rem; /* 12px */
   --pdl-icon-md: 1rem; /* 16px */
   --pdl-icon-lg: 1.25rem; /* 20px */
+  --pdl-radius-none: 0rem; /* 0px */
+  --pdl-radius-x-sm: 0.25rem; /* 4px */
+  --pdl-radius-sm: 0.5rem; /* 8px */
+  --pdl-radius-md: 0.75rem; /* 12px */
+  --pdl-radius-lg: 1rem; /* 16px */
+  --pdl-radius-circle: 624.94rem; /* 9999px */
 
   /* Elevation */
 
   /* Type */
-  --pdl-font-sans: 'FK Grotesk', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  --pdl-font-mono: 'DM Mono', ui-monospace, SFMono-Regular, Menlo, Monaco;
+  --pdl-font-sans:
+    "FK Grotesk", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --pdl-font-mono: Berkeley Mono;
   --pdl-text-size-sm: 0.75rem; /* 12px */
   --pdl-text-size-md: 0.81rem; /* 13px */
   --pdl-text-size-lg: 0.94rem; /* 15px */
