@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx storybook@latest init)",
+      "Bash(npm install:*)",
+      "Bash(npm run storybook:*)",
+      "Bash(npm start)",
+      "Bash(cat:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npm run dev:*)",
+      "Bash(git remote add:*)",
+      "Bash(git init:*)"
+    ]
+  }
+}

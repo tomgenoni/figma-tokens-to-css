@@ -1,0 +1,8 @@
+.docs-story {
+  background-color: var(--pdl-bg-base);
+}
+
+/* Prevents radio buttons in args table from being dark mode */
+input[type='radio'] {
+  color-scheme: light;
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Design Tokens",
+  "collections": {
+    "mode": {
+      "modes": {
+        "light": [
+          "mode.light.tokens.json"
+        ],
+        "dark": [
+          "mode.dark.tokens.json"
+        ]
+      }
+    },
+    "dimension": {
+      "modes": {
+        "value": [
+          "dimension.value.tokens.json"
+        ]
+      }
+    },
+    "type": {
+      "modes": {
+        "value": [
+          "type.value.tokens.json"
+        ]
+      }
+    },
+    "palettes": {
+      "modes": {
+        "value": [
+          "palettes.value.tokens.json"
+        ]
+      }
+    }
+  },
+  "styles": {
+    "text": [
+      "text.styles.tokens.json"
+    ]
+  }
+}

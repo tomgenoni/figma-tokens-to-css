@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'CircularXXWeb';
+  src: url('/font/CircularXXWeb-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CircularXXWeb';
+  src: url('/font/CircularXXWeb-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CircularXXWeb';
+  src: url('/font/CircularXXWeb-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Reddit Mono';
+  src: url('/font/RedditMono-VariableFont_wght.ttf') format('truetype');
+  font-weight: 200 900;
+  font-style: normal;
+}
+
+/* Global styles */
+
+body {
+  color: var(--pdl-fg-base);
+  background-color: var(--pdl-bg-base);
+}

@@ -1,0 +1,46 @@
+{
+  "fg": {
+    "base": {
+      "$type": "color",
+      "$value": "{gray.50}"
+    },
+    "muted": {
+      "$type": "color",
+      "$value": "{gray.500}"
+    },
+    "subtle": {
+      "$type": "color",
+      "$value": "{gray.600}"
+    },
+    "inverse": {
+      "$type": "color",
+      "$value": "{black}"
+    }
+  },
+  "bg": {
+    "base": {
+      "$type": "color",
+      "$value": "{black}"
+    },
+    "faint": {
+      "$type": "color",
+      "$value": "{gray.950}"
+    },
+    "dim": {
+      "$type": "color",
+      "$value": "{gray.900}"
+    }
+  },
+  "border": {
+    "base": {
+      "$type": "color",
+      "$value": "{gray.800}"
+    }
+  },
+  "accent": {
+    "base": {
+      "$type": "color",
+      "$value": "{sky.300}"
+    }
+  }
+}
