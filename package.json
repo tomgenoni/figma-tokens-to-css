@@ -4,14 +4,9 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@testing-library/dom": "^10.4.1",
-    "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/react": "^16.3.1",
-    "@testing-library/user-event": "^13.5.0",
     "next": "^16.1.1",
     "react": "^19.2.3",
-    "react-dom": "^19.2.3",
-    "web-vitals": "^2.1.4"
+    "react-dom": "^19.2.3"
   },
   "scripts": {
     "dev": "next dev",
@@ -21,37 +16,15 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest",
-      "plugin:storybook/recommended"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
   "devDependencies": {
     "@storybook/addon-a11y": "^10.1.11",
     "@storybook/addon-docs": "^10.1.11",
-    "@storybook/preset-create-react-app": "^10.1.11",
-    "@storybook/react-webpack5": "^10.1.11",
+    "@storybook/nextjs": "^10.1.11",
     "@tailwindcss/postcss": "^4.1.18",
-    "@vitest/mocker": "^4.0.16",
     "eslint-plugin-storybook": "^10.1.11",
     "prop-types": "^15.8.1",
     "storybook": "^10.1.11",
     "tailwindcss": "^4.1.18",
-    "typescript": "^5.9.3",
-    "webpack": "^5.104.1"
+    "typescript": "^5.9.3"
   }
 }
