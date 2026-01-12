@@ -45,10 +45,13 @@
     "@storybook/addon-docs": "^10.1.11",
     "@storybook/preset-create-react-app": "^10.1.11",
     "@storybook/react-webpack5": "^10.1.11",
+    "@tailwindcss/postcss": "^4.1.18",
     "@vitest/mocker": "^4.0.16",
     "eslint-plugin-storybook": "^10.1.11",
     "prop-types": "^15.8.1",
     "storybook": "^10.1.11",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3",
     "webpack": "^5.104.1"
   }
 }
